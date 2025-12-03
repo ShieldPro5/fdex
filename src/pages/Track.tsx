@@ -15,6 +15,7 @@ interface ShipmentProgress {
   title: string;
   description: string;
   location: string;
+  updatedAt: string;
   timestamp: string | null;
   completed: boolean;
 }
@@ -361,7 +362,7 @@ const Track = () => {
                                     </span>
                                     <span className="flex items-center gap-1">
                                       <Calendar className="h-3 w-3" />
-                                      {formatTimestamp(event.timestamp)}
+                                      {formatTimestamp(event.updatedAt)}
                                     </span>
                                   </div>
                                 </div>

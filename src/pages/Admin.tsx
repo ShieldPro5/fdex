@@ -121,7 +121,7 @@ const Admin = () => {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (username === "vico" && password === "vic1404174") {
+    if (username === "fedx" && password === "Fx000217") {
       setIsLoggedIn(true);
       localStorage.setItem("adminLoggedIn", "true");
       toast.success("Login successful!");

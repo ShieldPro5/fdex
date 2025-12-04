@@ -11,7 +11,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { toast } from "sonner";
 
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://sh-backend-1.onrender.com/api";
 
 interface Shipment {
   _id: string;

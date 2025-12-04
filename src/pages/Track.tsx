@@ -54,7 +54,7 @@ interface Shipment {
   delivery_attempts?: number;
 }
 
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://sh-backend-1.onrender.com/api";
 
 const Track = () => {
   const [searchParams] = useSearchParams();
